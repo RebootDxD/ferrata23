@@ -394,7 +394,7 @@ html {
     transition: all .7s ease-in-out;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #054296;
+    background-color: #04204e;
     background-image: url("../img/arrow_down.svg")
 }
 .back-to-top:hover {
