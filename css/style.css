@@ -1,0 +1,303 @@
+
+html {
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+.header_wrapper {
+    background: linear-gradient(#054296, #fff 100%);
+    width: 100%;
+    height: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: #464646;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_wrapper {
+    max-width: 1547px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_logo {
+    width: 128px;
+    margin-top: 60px;
+}
+
+.header_menu a {
+    color: #ffffff;
+    font-size: 22pt;
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mail {
+    margin-top: 12px;
+}
+
+.header_menu {
+    margin-top: 70px;
+}
+
+
+.hero-content {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_main_text {
+    font-size: 54px;
+    font-weight: bold;
+    margin: unset;
+}
+
+.hero_text {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 52px;
+}
+
+.hero_img_object {
+    width: 630px;
+    margin-top: -60px;
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button {
+    width: 220px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 80px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    padding: 22px 38px;
+    color: #054296;
+}
+
+.button:hover {
+    background-color: #EAEAEA;
+    transition: 0.2s;
+}
+
+.temp_water_wrapper {
+    margin-top: -50vh;
+    max-width: 1547px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.temp_water_main {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #054296;
+    text-align: center;
+}
+
+.temp_water_main_block {
+    display: flex;
+    justify-content: left;
+
+}
+
+.temp_water_main_text {
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #054296;
+    text-align: left;
+    max-width: 900px;
+}
+
+.temp_water_second_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.temp_water_slider {
+    margin-top: 30px;
+    min-width: 0;
+    display: flex;
+    max-width: 647px;
+}
+
+.price {
+    margin-top: 300px;
+
+}
+
+.price_main_text {
+    font-size: 42px;
+    font-weight: bold;
+    color: #054296;
+    text-align: center;
+}
+
+.price_main_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.price_text_price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #054296;
+    display: inline-flex;
+    margin-top: 60px;
+    max-width: 1115px;
+}
+
+.button_price {
+    width: 220px;
+    height: 80px;
+    background-color: #054296;
+    border-radius: 80px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    padding: 22px 38px;
+    color: #ffffff;
+
+}
+
+.price_button_wrapper {
+    margin-top: 120px;
+}
+
+.second_wrapper {
+    background: linear-gradient(#fff, #054296 90%);
+    width: 100%;
+    height: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: #464646;
+}
+
+.second_inside_wrapper {
+    max-width: 1547px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.advantages_main_block {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.advantages_text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-flex;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.advantages_text_one {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-flex;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.advantages_text::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    transform: translateX(-120px);
+    background-image: url("../img/ok.svg");
+}
+
+.advantages_text_one::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    transform: translate(-120px, -25px);
+    background-image: url("../img/ok.svg");
+}
+
+.advantages_slide {
+    border-radius: 10px;
+}
+
+.advantages_slider {
+    margin-top: 70px;
+    max-width: 772px;
+}
+.file{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.file_element{
+    max-width: 300px;
+    margin-right: 140px;
+    color: white;
+}
+.file_element::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    transform: translate(-90px, -10px);
+    background-image: url("../img/file.svg");
+}
+
+.collective_wrapper{
+    width: 100%;
+    height: 238px;
+    background-color: #054296;
+}
+.collective_inside_wrapper{
+    max-width: 1547px;
+    margin-left: auto;
+    margin-right: auto;
+}
