@@ -75,13 +75,15 @@ html {
     font-size: 54px;
     font-weight: bold;
     margin: unset;
+    max-width: 860px;
 }
 
 .hero_text {
     font-size: 24px;
     font-weight: normal;
     margin-top: 34px;
-    margin-bottom: 52px;
+    margin-bottom: 60px;
+    max-width: 620px;
 }
 
 .hero_img_object {
@@ -98,7 +100,7 @@ html {
     width: 220px;
     height: 80px;
     background-color: #fff;
-    border-radius: 80px;
+    border-radius: 32px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 24px;
     padding: 22px 38px;
@@ -121,7 +123,7 @@ html {
 .temp_water_main {
     display: flex;
     justify-content: center;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
     color: #054296;
     text-align: center;
@@ -137,7 +139,7 @@ html {
     margin-top: 60px;
     font-size: 36px;
     font-weight: bold;
-    color: #054296;
+    color: #3f3f3f;
     text-align: left;
     max-width: 900px;
 }
@@ -157,7 +159,7 @@ html {
 }
 
 .price {
-    margin-top: 300px;
+    margin-top: 150px;
 
 }
 
@@ -171,12 +173,13 @@ html {
 .price_main_block {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .price_text_price {
     font-size: 36px;
     font-weight: bold;
-    color: #054296;
+    color: #3f3f3f;
     display: inline-flex;
     margin-top: 60px;
     max-width: 1115px;
@@ -186,12 +189,25 @@ html {
     width: 220px;
     height: 80px;
     background-color: #054296;
-    border-radius: 80px;
+    border-radius: 32px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 24px;
     padding: 22px 38px;
     color: #ffffff;
 
+}
+
+.button_price_phone {
+    width: 220px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 32px;
+    border: #054296 2px solid;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    padding: 22px 38px;
+    color: #054296;
+    margin-left: 30px;
 }
 
 .price_button_wrapper {
@@ -201,7 +217,6 @@ html {
 .second_wrapper {
     background: linear-gradient(#fff, #054296 90%);
     width: 100%;
-    height: 150vh;
     margin-left: auto;
     margin-right: auto;
     color: #464646;
@@ -217,6 +232,7 @@ html {
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
+    padding-bottom: 30px;
 }
 
 .advantages_main_block {
@@ -269,7 +285,8 @@ html {
     margin-top: 70px;
     max-width: 772px;
 }
-.file{
+
+.file {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -277,11 +294,13 @@ html {
     font-weight: bold;
     color: #fff;
 }
-.file_element{
+
+.file_element {
     max-width: 300px;
     margin-right: 140px;
     color: white;
 }
+
 .file_element::before {
     position: absolute;
     content: "";
@@ -291,13 +310,94 @@ html {
     background-image: url("../img/file.svg");
 }
 
-.collective_wrapper{
+.collective_wrapper {
     width: 100%;
     height: 238px;
     background-color: #054296;
 }
-.collective_inside_wrapper{
+
+.collective_inside_wrapper {
     max-width: 1547px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.collective_img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.collective_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
+.about_map {
+    width: 600px;
+    height: 400px;
+    margin-right: 60px;
+}
+
+.about_wrapper {
+    margin-top: 80px;
+    max-width: 1547px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #3f3f3f;
+}
+
+.about_main_block {
+    display: flex;
+}
+
+.about_main_text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.about_second_text {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.about_third_text {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.footer_text{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.back-to-top {
+    opacity: 0.8;
+    z-index: 9999;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: -80px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 64px;
+    transition: all .7s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #054296;
+    background-image: url("../img/arrow_down.svg")
+}
+.back-to-top:hover {
+    opacity: 1;
+    background-color: #054296;
 }
