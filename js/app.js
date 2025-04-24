@@ -25,6 +25,20 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    $('.advantages_slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        accessibility: false,
+        draggable: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        pauseOnDotsHover: false,
+    });
+
+});
+
+$(document).ready(function () {
     let backToTop = document.getElementById('back-to-top');
 
     window.onscroll = function() {scrollFunction()};
